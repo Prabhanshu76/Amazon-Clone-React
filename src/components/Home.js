@@ -23,20 +23,22 @@ function Home() {
     getProducts();
   }, []);
 
-  console.log(products.length);
+  console.log(products);
 
   const getData1 = () => {
     let prod = [];
-    for (let i = 0; i < 2; i++) {
-      prod.push(
-        <Product
-          title={products[i].product.name}
-          price={products[i].product.price}
-          rating={products[i].product.rating}
-          image={products[i].product.image}
-          id={products[i].id}
-        />
-      );
+    for (let i = 0; i < products.length; i++) {
+      if (i < 2) {
+        prod.push(
+          <Product
+            title={products[i].product.name}
+            price={products[i].product.price}
+            rating={products[i].product.rating}
+            image={products[i].product.image}
+            id={products[i].id}
+          />
+        );
+      }
     }
     return prod;
   };
