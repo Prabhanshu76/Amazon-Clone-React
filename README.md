@@ -5,8 +5,8 @@
 You can find the Demo [here](https://clone-d7385.web.app).
 
 
-In the project directory, you can run:
-
+To start the project, go to project folder and open terminal:
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.<br />
