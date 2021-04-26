@@ -4,12 +4,13 @@
 
 You can find the Demo [here](https://clone-d7385.web.app).
 
+## Available Scripts
 
-To start the project, go to project folder and open terminal:
+To start the project, go to project folder, open terminal and run:
 ### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.<br />
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
